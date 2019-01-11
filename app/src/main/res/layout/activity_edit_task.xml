@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for the edit activity -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_margin"
+    tools:context=".EditTaskActivity">
+
+    <!-- Overview category -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="@string/category_task_overview"
+            style="@style/DisplayStyle" />
+
+        <!-- Input fields -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:paddingLeft="4dp"
+            android:orientation="vertical">
+
+            <!-- Title field -->
+            <EditText
+                android:id="@+id/edit_task_title"
+                android:hint="@string/hint_task_title"
+                android:inputType="textCapWords"
+                android:maxLength="50"
+                style="@style/EditorFieldStyle" />
+
+            <!-- Details field -->
+            <EditText
+                android:id="@+id/edit_task_details"
+                android:hint="@string/hint_task_details"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences|textMultiLine"
+                android:maxLength="200"
+                style="@style/EditorFieldStyle" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Status category -->
+    <LinearLayout
+        android:id="@+id/container_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!-- Label -->
+        <TextView
+            android:text="@string/category_status"
+            style="@style/DisplayStyle" />
+
+        <!-- Input field -->
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical">
+
+            <!-- Status drop-down spinner -->
+            <Spinner
+                android:id="@+id/spinner_status"
+                android:layout_height="48dp"
+                android:layout_width="wrap_content"
+                android:paddingRight="16dp"
+                android:spinnerMode="dropdown"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <!-- These are the options displayed in the status drop-down Spinner -->
+    <string name="status_not_started">Not started</string>
+    <string name="status_in_progress">In progress</string>
+    <string name="status_completed">Completed</string>
+    <string-array name="array_status_options">
+        <item>@string/status_not_started</item>
+        <item>@string/status_in_progress</item>
+        <item>@string/status_completed</item>
+    </string-array>
+</resources>

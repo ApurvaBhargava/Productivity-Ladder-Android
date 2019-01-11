@@ -1,0 +1,55 @@
+<resources>
+
+    <string name="app_name">Productivity Ladder</string>
+    <string name="tab_text_1">Reminders</string>
+    <string name="tab_text_2">To-Do</string>
+    <string name="tab_text_3">Doing</string>
+    <string name="tab_text_4">Done</string>
+    <string name="action_settings">Settings</string>
+    <string name="empty_view_title_text">You have set no reminders.</string>
+    <string name="empty_view_subtitle_text">Get started by adding a reminder</string>
+    <string name="editor_activity_title_new_reminder">Add a Reminder</string>
+    <string name="action_save">Save</string>
+    <string name="action_delete">Delete</string>
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="delete">Delete</string>
+    <string name="delete_dialog_msg">Delete this reminder?</string>
+    <string name="cancel">Cancel</string>
+    <string name="editor_activity_title_new_task">Add task</string>
+    <string name="editor_activity_title_edit_task">Edit task</string>
+    <string name="category_status">Status</string>
+    <string name="editor_insert_task_failed">Error with saving task</string>
+    <string name="editor_insert_task_successful">Task saved</string>
+    <string name="editor_update_task_failed">Error with updating task</string>
+    <string name="editor_update_task_successful">Task updated</string>
+    <string name="delete_dialog_msg_task">Delete this task?</string>
+    <string name="editor_delete_task_failed">Error with deleting task</string>
+    <string name="editor_delete_task_successful">Task deleted</string>
+    <string name="unknown_task" />
+    <string name="action_insert_sample_task">Insert sample task</string>
+    <string name="action_delete_all_tasks">Delete all tasks</string>
+    <string name="hint_task_title">Task</string>
+    <string name="hint_task_details">Details</string>
+    <string name="category_task_overview">Your Task</string>
+    <string name="empty_view_title_text_todo">You have no tasks in to-do list</string>
+    <string name="empty_view_subtitle_text_todo">Get started towards productivity by adding some</string>
+    <string name="empty_view_title_text_done">You have no tasks in done list</string>
+    <string name="empty_view_subtitle_text_done">You can start working on a task to complete it</string>
+    <string name="empty_view_title_text_doing">You have no tasks in doing list</string>
+    <string name="empty_view_subtitle_text_doing">You can be productive by starting one</string>
+    <string name="editor_activity_title_edit_reminder">Edit reminder</string>
+    <string name="editor_insert_reminder_failed">Error with saving reminder</string>
+    <string name="editor_insert_reminder_successful">Reminder saved</string>
+    <string name="editor_update_reminder_failed">Error with updating reminder</string>
+    <string name="editor_update_reminder_successful">Reminder updated</string>
+    <string name="editor_delete_reminder_failed">Error with deleting reminder</string>
+    <string name="editor_delete_reminder_successful">Reminder deleted</string>
+    <string name="hint_reminder">Reminder</string>
+    <string name="hint_reminder_details">Details</string>
+    <string name="action_delete_all_reminders">Delete all reminders</string>
+    <string name="action_insert_sample_reminder">Insert sample reminder</string>
+    <string name="category_reminder">Reminder</string>
+
+</resources>

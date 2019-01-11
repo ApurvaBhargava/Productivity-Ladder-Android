@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Layout for a single list item in the list of reminders -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:columnCount="2"
+    android:rowCount="2"
+    android:padding="@dimen/activity_margin">
+    <ImageView
+        android:id="@+id/clock_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start|center_vertical"
+        android:paddingStart="0dp"
+        android:paddingEnd="8dp"
+        android:src="@drawable/ic_alarm"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:paddingStart="8dp"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="sans-serif-medium"
+            android:textSize="18sp"
+            android:textColor="#2B3D4D"  />
+        <TextView
+            android:id="@+id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:layout_gravity="start|center_vertical"
+            android:fontFamily="sans-serif"
+            android:textSize="14sp"
+            android:textColor="#AEB6BD"  />
+    </LinearLayout>
+</LinearLayout>
