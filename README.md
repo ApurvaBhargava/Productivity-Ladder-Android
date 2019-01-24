@@ -1,4 +1,6 @@
 # Productivity-Ladder-Android
+> **(May, 2018)**
+
 Android application for creating Kanban style productivity task-lists (swiping between To-Do, Doing, Done lists) and setting basic reminders.
 
  Reminders Screens                                          | Tasks Screens
